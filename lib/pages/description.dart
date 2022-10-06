@@ -15,14 +15,14 @@ class Description extends StatelessWidget {
         ),
         body: SingleChildScrollView(
             child: Container(
-              margin: const EdgeInsets.only(top: 50),
+              margin: const EdgeInsets.only(top: 30),
               child: Center(
                 child: Column(
                   children: [
                     Container(
                       margin: const EdgeInsets.only(bottom: 20),
                       child: TextWithStyle(data: nom, weight: FontWeight.bold,
-                        size: 15 ,),
+                        size: 20 ,),
                     ),
                     Image.network(posterurl, height: 200, width: 200,),
                     Container(
@@ -35,10 +35,10 @@ class Description extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      margin: const EdgeInsets.only(left: 10, top: 10),
+                      margin: const EdgeInsets.only(left: 10, top: 20),
                       alignment: Alignment.topLeft,
                       child: TextWithStyle(data: 'Sypnopsis', weight: FontWeight.bold,
-                        size: 15 ,),
+                        size: 20,),
                     ),
                     Container(
                       margin: const EdgeInsets.only(left: 10, top: 20),
